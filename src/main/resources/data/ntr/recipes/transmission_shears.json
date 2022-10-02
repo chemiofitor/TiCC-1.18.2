@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "# ",
+    "s#"
+  ],
+  "key": {
+    "#": {
+      "item": "ntr:transmission_ingot"
+    },
+    "s": {
+      "item": "ntr:transmission_stick"
+    }
+  },
+  "result": {
+    "item": "ntr:transmission_shears"
+  }
+}

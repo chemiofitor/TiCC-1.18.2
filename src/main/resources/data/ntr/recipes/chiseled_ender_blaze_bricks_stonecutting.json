@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "ntr:ender_blaze_bricks"
+  },
+  "result": "ntr:chiseled_ender_blaze_bricks",
+  "count": 1
+}

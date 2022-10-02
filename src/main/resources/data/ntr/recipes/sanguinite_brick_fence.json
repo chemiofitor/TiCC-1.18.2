@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "ntr:sanguinite_bricks"
+    }
+  },
+  "result": {
+    "item": "ntr:sanguinite_brick_fence",
+    "count": 6
+  }
+}

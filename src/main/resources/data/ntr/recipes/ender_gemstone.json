@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#s#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "ntr:transmission_dust"
+    },
+    "s": {
+      "item": "minecraft:ender_eye"
+    }
+  },
+  "result": {
+    "item": "ntr:ender_gemstone"
+  }
+}

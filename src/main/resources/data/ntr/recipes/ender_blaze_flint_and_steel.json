@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "ntr:ender_gemstone"
+    }
+  ],
+  "result": {
+    "item": "ntr:ender_blaze_flint_and_steel"
+  }
+}

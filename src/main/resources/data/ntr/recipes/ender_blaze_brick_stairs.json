@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "ntr:ender_blaze_bricks"
+    }
+  },
+  "result": {
+    "item": "ntr:ender_blaze_brick_stairs",
+    "count": 4
+  }
+}

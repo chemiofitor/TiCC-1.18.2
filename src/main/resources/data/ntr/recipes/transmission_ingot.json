@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "ntr:transmission_dust"
+    },
+    {
+      "item": "ntr:transmission_dust"
+    },
+    {
+      "item": "ntr:transmission_dust"
+    },
+    {
+      "item": "ntr:transmission_dust"
+    }
+  ],
+  "result": {
+    "item": "ntr:transmission_ingot"
+  }
+}

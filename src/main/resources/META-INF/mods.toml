@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="MIT"
+[[mods]]
+modId="ticc"
+version="${file.jarVersion}"
+displayName="TiCC"
+authors="Chemiofitor(HLFT)"
+[[dependencies.ticc]]
+    modId="forge"
+    mandatory=true
+    versionRange="[40,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.ticc]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.ticc]]
+    modId="tconstruct"
+    mandatory=true
+    versionRange="[3.5.2,)"
+    ordering="NONE"
+    side="BOTH"

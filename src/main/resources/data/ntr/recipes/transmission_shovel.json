@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "s",
+    "s"
+  ],
+  "key": {
+    "#": {
+      "item": "ntr:transmission_ingot"
+    },
+    "s": {
+      "item": "ntr:transmission_stick"
+    }
+  },
+  "result": {
+    "item": "ntr:transmission_shovel"
+  }
+}

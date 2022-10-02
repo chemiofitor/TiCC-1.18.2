@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WoW",
+    "WWW",
+    " W "
+  ],
+  "key": {
+    "W": {
+      "tag": "minecraft:planks"
+    },
+    "o": {
+      "item": "ntr:transmission_ingot"
+    }
+  },
+  "result": {
+    "item": "minecraft:shield",
+    "nbt": "{BlockEntityTag:{Base:14,Patterns:[{Pattern:gra,Color:10}]}}"
+  }
+}
