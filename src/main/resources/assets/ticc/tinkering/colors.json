@@ -1,0 +1,10 @@
+{
+  "modifier.ticc": {
+    "photosynthesis": "#78D32E"
+  },
+
+  "material.ticc": {
+    "chlorium": "#78D32E",
+    "powered_tin": "#84C1ED"
+  }
+}

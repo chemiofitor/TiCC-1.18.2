@@ -1,31 +1,38 @@
 buildscript {
     repositories {
-        maven { url = 'https://maven.minecraftforge.net' }
-        mavenCeticcal()
+        mavenLocal()
+        maven { url = 'https://maven.minecraftforge.net/' }
+        maven { url = 'https://libraries.minecraft.net/' }
+        jcenter()
+        mavenCentral()
+        maven {
+            name "Parchment"
+            url "https://maven.parchmentmc.org"
+        }
     }
     dependencies {
-        classpath group: 'net.minecraftforge.gradle', name: 'ForgeGradle', version: '5.1.+', changing: true
+        classpath group: 'net.minecraftforge.gradle', name: 'ForgeGradle', version: '5.1.+', changing: false
+        classpath 'org.parchmentmc:librarian:1.+'
     }
 }
 
 apply plugin: 'net.minecraftforge.gradle'
+apply plugin: 'org.parchmentmc.librarian.forgegradle'
 
-version = '1.18.2-0.0.1'
+version = '1.18.2-3.4.1'
 group = 'hualong.ticc'
 archivesBaseName = 'TiCC'
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 
 minecraft {
-    mappings channel: 'official', version: '1.18.2'
+    mappings channel: 'parchment', version: '2022.07.10-1.18.2'
 
     runs {
         client {
             workingDirectory project.file('run')
 
-            property 'forge.logging.markers', 'REGISTRIES'
-            property 'forge.logging.console.level', 'debug'
-            property 'forge.enabledGameTestNamespaces', 'ticc'
+            property 'forge.logging.console.level', 'info'
 
             mods {
                 ticc {
@@ -37,23 +44,7 @@ minecraft {
         server {
             workingDirectory project.file('run')
 
-            property 'forge.logging.markers', 'REGISTRIES'
-            property 'forge.logging.console.level', 'debug'
-            property 'forge.enabledGameTestNamespaces', 'ticc'
-
-            mods {
-                ticc {
-                    source sourceSets.main
-                }
-            }
-        }
-
-        gameTestServer {
-            workingDirectory project.file('run')
-
-            property 'forge.logging.markers', 'REGISTRIES'
-            property 'forge.logging.console.level', 'debug'
-            property 'forge.enabledGameTestNamespaces', 'ticc'
+            property 'forge.logging.console.level', 'info'
 
             mods {
                 ticc {
@@ -65,8 +56,7 @@ minecraft {
         data {
             workingDirectory project.file('run')
 
-            property 'forge.logging.markers', 'REGISTRIES'
-
+            property 'forge.logging.markers', 'REGISTRIES,REGISTRYDUMP'
             property 'forge.logging.console.level', 'debug'
 
             args '--mod', 'ticc', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
@@ -84,9 +74,26 @@ sourceSets.main.resources { srcDir 'src/generated/resources' }
 
 repositories {
     maven {
-        allowInsecureProtocol = true
         name 'Progwml6 maven'
         url 'https://dvs1.progwml6.com/files/maven'
+    }
+    maven {
+        name 'Vanilla'
+        url 'https://libraries.minecraft.net/'
+    }
+    maven {
+        name 'ForgeFS'
+        url 'https://maven.minecraftforge.net/'
+    }
+    maven {
+        name 'DVS1 Maven FS'
+        url 'https://dvs1.progwml6.com/files/maven'
+    }
+    maven {
+        url "https://cursemaven.com"
+        content {
+            includeGroup "curse.maven"
+        }
     }
 }
 
@@ -94,6 +101,12 @@ dependencies {
     minecraft 'net.minecraftforge:forge:1.18.2-40.1.21'
 
     runtimeOnly fg.deobf("mezz.jei:jei-1.18.2:9.7.1.255")
+
+    implementation fg.deobf("slimeknights.mantle:Mantle:1.18.2-1.9.25")
+
+    implementation fg.deobf("slimeknights.tconstruct:TConstruct:1.18.2-3.5.2.38")
+
+    implementation fg.deobf("curse.maven:technical-engineering-3-658874:4020802")
 }
 
 jar.finalizedBy('reobfJar')

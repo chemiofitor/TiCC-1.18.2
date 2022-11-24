@@ -1,0 +1,8 @@
+{
+  "ctm": {
+    "ctm_version": 1,
+    "type": "ctm",
+    "layer": "CUTOUT",
+    "textures": [ "ticc:block/quartz_glass_ctm" ]
+  }
+}

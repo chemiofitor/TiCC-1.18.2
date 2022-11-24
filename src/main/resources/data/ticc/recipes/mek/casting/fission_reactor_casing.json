@@ -1,0 +1,19 @@
+{
+  "conditions": [
+    {
+      "modid": "mekanismgenerators",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "type": "tconstruct:casting_basin",
+  "cast": {
+    "item": "ticc:steel_casing"
+  },
+  "cast_consumed": true,
+  "fluid": {
+    "tag": "forge:molten_lead",
+    "amount": 90
+  },
+  "result": "mekanismgenerators:fission_reactor_casing",
+  "cooling_time": 76
+}

@@ -15,7 +15,7 @@ authors="Chemiofitor(HLFT)"
 [[dependencies.ticc]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.16.5,1.17)"
+    versionRange="[1.18,1.19)"
     ordering="NONE"
     side="BOTH"
 [[dependencies.ticc]]

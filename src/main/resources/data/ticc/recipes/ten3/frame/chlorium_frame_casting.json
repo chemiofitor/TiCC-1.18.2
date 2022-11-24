@@ -1,0 +1,19 @@
+{
+  "conditions": [
+    {
+      "modid": "ten3",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "type": "tconstruct:casting_basin",
+  "cast": {
+    "item": "ticc:wooden_frame"
+  },
+  "cast_consumed": true,
+  "fluid": {
+    "tag": "forge:molten_chlorium",
+    "amount": 360
+  },
+  "result": "ticc:chlorium_frame",
+  "cooling_time": 102
+}

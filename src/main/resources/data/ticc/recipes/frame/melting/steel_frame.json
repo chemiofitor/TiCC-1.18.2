@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "ticc:steel_frame"
+  },
+  "result": {
+    "fluid": "tconstruct:molten_steel",
+    "amount": 360
+  },
+  "temperature": 950,
+  "time": 120
+}

@@ -1,0 +1,7 @@
+{
+	"parent": "ticc:block/base/frame",
+	"textures": {
+		"0": "ticc:block/copper_frame",
+		"particle": "ticc:block/copper_frame"
+	}
+}

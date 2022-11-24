@@ -1,21 +1,12 @@
 {
   "replace": false,
   "values": [
-    "ntr:sanguinite_bricks",
-    "ntr:chiseled_sanguinite_bricks",
-    "ntr:cracked_sanguinite_bricks",
-    "ntr:sanguinite_brick_stairs",
-    "ntr:sanguinite_brick_slab",
-    "ntr:sanguinite_brick_fence",
-    "ntr:sanguinite_pillar",
-    "ntr:ender_transmission_block",
-    "ntr:ender_blaze_bricks",
-    "ntr:chiseled_ender_blaze_bricks",
-    "ntr:ender_blaze_pillar",
-    "ntr:ender_blaze_brick_slab",
-    "ntr:ender_blaze_brick_stairs",
-    "ntr:transmission_ore",
-    "ntr:transmission_dust_block",
-    "ntr:transmission_ingot_block"
+    "ticc:iron_frame",
+    "ticc:chlorium_frame",
+    "ticc:copper_frame",
+    "ticc:lead_frame",
+    "ticc:quartz_glass",
+    "ticc:steel_frame",
+    "ticc:quartz_glass"
   ]
 }

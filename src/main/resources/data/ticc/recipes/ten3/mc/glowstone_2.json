@@ -1,0 +1,21 @@
+{
+  "conditions": [
+    {
+      "value": {
+        "modid": "thermal",
+        "type": "forge:mod_loaded"
+      },
+      "type": "forge:not"
+    }
+  ],
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "minecraft:glowstone"
+  },
+  "result": {
+    "fluid": "ticc:glowstone",
+    "amount": 1000
+  },
+  "temperature": 200,
+  "time": 40
+}

@@ -1,0 +1,18 @@
+{
+  "conditions": [
+    {
+      "modid": "ten3",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "tag": "forge:nuggets/powered_tin"
+  },
+  "result": {
+    "fluid": "ticc:molten_powered_tin",
+    "amount": 10
+  },
+  "temperature": 300,
+  "time": 17
+}

@@ -1,0 +1,24 @@
+{
+  "type": "tconstruct:casting_table",
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:plates/chlorium",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ],
+  "cast": {
+    "tag": "tconstruct:casts/single_use/plate"
+  },
+  "cast_consumed": true,
+  "fluid": {
+    "tag": "forge:molten_chlorium",
+    "amount": 90
+  },
+  "result": {
+    "tag": "forge:plates/chlorium"
+  },
+  "cooling_time": 50
+}

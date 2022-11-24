@@ -1,0 +1,18 @@
+{
+  "conditions": [
+    {
+      "modid": "ten3",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "tag": "forge:dusts/chlorium"
+  },
+  "result": {
+    "fluid": "ticc:molten_chlorium",
+    "amount": 90
+  },
+  "temperature": 800,
+  "time": 45
+}

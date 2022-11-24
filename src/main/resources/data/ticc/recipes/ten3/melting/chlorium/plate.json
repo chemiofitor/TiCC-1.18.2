@@ -1,0 +1,21 @@
+{
+  "type": "tconstruct:melting",
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:plates/chlorium",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:plates/chlorium"
+  },
+  "result": {
+    "fluid": "ticc:molten_chlorium",
+    "amount": 90
+  },
+  "temperature": 800,
+  "time": 50
+}

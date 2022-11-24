@@ -1,0 +1,21 @@
+{
+  "type": "tconstruct:melting",
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:plates/powered_tin",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:plates/powered_tin"
+  },
+  "result": {
+    "fluid": "ticc:molten_powered_tin",
+    "amount": 90
+  },
+  "temperature": 300,
+  "time": 50
+}

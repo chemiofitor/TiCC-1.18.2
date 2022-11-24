@@ -1,0 +1,13 @@
+{
+  "type": "tconstruct:casting_basin",
+  "cast": {
+    "tag": "forge:glass"
+  },
+  "cast_consumed": true,
+  "fluid": {
+    "tag": "tconstruct:molten_quartz",
+    "amount": 100
+  },
+  "result": "ticc:quartz_glass",
+  "cooling_time": 41
+}

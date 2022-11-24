@@ -1,0 +1,31 @@
+{
+  "conditions": [
+    {
+      "value": {
+        "modid": "thermal",
+        "type": "forge:mod_loaded"
+      },
+      "type": "forge:not"
+    }
+  ],
+  "type": "tconstruct:alloy",
+  "inputs": [
+    {
+      "tag": "forge:redstone",
+      "amount": 100
+    },
+    {
+      "tag": "tconstruct:molten_tin",
+      "amount": 90
+    },
+    {
+      "tag": "tconstruct:molten_copper",
+      "amount": 90
+    }
+  ],
+  "result": {
+    "fluid": "ticc:molten_powered_tin",
+    "amount": 180
+  },
+  "temperature": 300
+}

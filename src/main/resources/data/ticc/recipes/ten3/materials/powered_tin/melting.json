@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_melting",
+  "input": "ticc:powered_tin",
+  "temperature": 300,
+  "result": {
+    "fluid": "ticc:molten_powered_tin",
+    "amount": 90
+  }
+}

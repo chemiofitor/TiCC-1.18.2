@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "ingredient": {
-    "item": "ntr:transmission_ore"
-  },
-  "result": "ntr:transmission_dust",
-  "experience": 0.7,
-  "cookingtime": 200
-}

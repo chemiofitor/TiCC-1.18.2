@@ -1,0 +1,14 @@
+{
+  "conditions": [
+    {
+      "modid": "ten3",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "default": [
+    {
+      "name": "tconstruct:lightweight",
+      "level": 1
+    }
+  ]
+}

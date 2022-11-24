@@ -1,0 +1,25 @@
+{
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:ores/lead",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    },
+    {
+      "modid": "create",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "create:crushed_lead_ore"
+  },
+  "result": {
+    "fluid": "tconstruct:molten_lead",
+    "amount": 120
+  },
+  "temperature": 330,
+  "time": 90
+}

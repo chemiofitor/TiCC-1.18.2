@@ -1,0 +1,13 @@
+{
+    "conditions": [
+        {
+            "modid": "ten3",
+            "type": "forge:mod_loaded"
+        }
+    ],
+    "craftable": false,
+    "tier": 3,
+    "sortOrder": 1,
+    "textColor": "#78D32E",
+    "hidden": false
+}

@@ -1,0 +1,18 @@
+{
+  "conditions": [
+    {
+      "modid": "ten3",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "tag": "forge:storage_blocks/powered_tin"
+  },
+  "result": {
+    "fluid": "ticc:molten_powered_tin",
+    "amount": 810
+  },
+  "temperature": 300,
+  "time": 171
+}
