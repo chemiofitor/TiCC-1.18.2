@@ -1,9 +1,0 @@
-{
-  "type": "tconstruct:material_melting",
-  "input": "ticc:chlorium",
-  "temperature": 800,
-  "result": {
-    "fluid": "ticc:molten_chlorium",
-    "amount": 90
-  }
-}
